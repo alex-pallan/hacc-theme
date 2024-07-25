@@ -1,0 +1,33 @@
+/* Font declarations */
+.jetbrains-mono-regular {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Custom Styles */
+body {
+  background-color: #161414;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: rgba(25, 25, 25, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid #5a3737;
+  border-bottom: 5px solid #5a3737;
+  position: relative;
+}
+
+.navbar-brand {
+  font-weight: 700 !important;
+}
+
+/* Footer Styles */
+.footer-hr {
+  color: transparent;
+  background: linear-gradient(90deg, transparent, #5a3737, transparent);
+  height: 2px;
+}
